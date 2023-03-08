@@ -1,0 +1,38 @@
+@charset 'utf-8';
+//bootstrap-required
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/maps'; // **Newly added!**
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+@import 'bootstrap/scss/helpers';
+@import 'bootstrap/scss/utilities/api';
+
+//bootstrap-components
+@import 'bootstrap/scss/tables';
+@import 'bootstrap/scss/grid';
+@import 'bootstrap/scss/bootstrap-utilities';
+
+$utilities: map-merge(
+	$utilities,
+	(
+		'cursor': (
+			property: cursor,
+			values: auto default pointer wait text move help not-allowed
+		)
+	)
+);
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap-grid';
+@import 'bootstrap/scss/accordion';
+
+//vendor styles
+
+//abstracts
+@import 'abstracts/variable';
+
+// base (reset, typography, device specific)
+
+// components
+@import 'site';
+@import 'components/dashboard';
