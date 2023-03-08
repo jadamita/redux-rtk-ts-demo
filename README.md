@@ -13,6 +13,7 @@ This project uses the following:
 - **React** - https://reactjs.org/ - This is our frontend framework
 - **Redux** - https://redux.js.org/ - This is our state management framework
 - **RTK Query** - https://redux-toolkit.js.org/rtk-query/overview -  This is a data fetching and client side caching framework
+- **Cypress** - https://www.cypress.io/ - This is the frontend testing automation framework/tool.
 - **Typescript** - https://www.typescriptlang.org/ - This uses typescript for static typing and cool compile time errors/warnings
 - **ESLint** - https://eslint.org/ - This lints our code using the rules we provide. We are using a Prettier plugin so it is aware of our Prettier rules
 - **Prettier** - https://prettier.io/ - This formats our code based on the rules we provide in the config file. This ensures code and formating.
