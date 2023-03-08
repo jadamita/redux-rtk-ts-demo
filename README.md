@@ -1,6 +1,8 @@
 
 # redux-rtk-ts-demo
 
+![Screenshot](screenshot.png)
+
 An example typescript react project using the Pokemon API
 
 This project uses the following:
