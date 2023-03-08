@@ -2,6 +2,8 @@
 # redux-rtk-ts-demo
 
 ![Screenshot](screenshot.png)
+![Screenshot](e2e_screenshot.png
+)
 
 An example typescript react project using the Pokemon API
 
@@ -31,6 +33,12 @@ Run the development instance
 
 ```bash
   npm run dev
+```
+
+Run the E2E tests using Cypress
+
+```bash
+  npm run cy:e2e
 ```
 
 Build the client application
