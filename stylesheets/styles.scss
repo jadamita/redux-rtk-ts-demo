@@ -14,13 +14,13 @@
 @import 'bootstrap/scss/bootstrap-utilities';
 
 $utilities: map-merge(
-	$utilities,
-	(
-		'cursor': (
-			property: cursor,
-			values: auto default pointer wait text move help not-allowed
-		)
-	)
+  $utilities,
+  (
+    'cursor': (
+      property: cursor,
+      values: auto default pointer wait text move help not-allowed
+    )
+  )
 );
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap/scss/bootstrap-grid';

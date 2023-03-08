@@ -1,31 +1,31 @@
 .loader {
-	height: 100%;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.8);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: fixed;
-	top: 0px;
-	z-index: 100000;
-	color: white;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  z-index: 100000;
+  color: white;
 }
 
 .header {
-	background-color: $primary-color;
-	color: $secondary-color-lighter;
+  background-color: $primary-color;
+  color: $secondary-color-lighter;
 }
 
 .side-panel {
-	background-color: $primary-color-light;
-	color: $secondary-color-lighter;
+  background-color: $primary-color-light;
+  color: $secondary-color-lighter;
 }
 
 .footer {
-	background-color: $secondary-color-light;
-	color: $primary-color;
+  background-color: $secondary-color-light;
+  color: $primary-color;
 }
 
 .text-primary {
-	color: $primary-color !important;
+  color: $primary-color !important;
 }

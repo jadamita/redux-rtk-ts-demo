@@ -1,15 +1,15 @@
 #dashboard {
-	h4 {
-		color: $primary-color;
-		font-weight: bold;
-	}
+  h4 {
+    color: $primary-color;
+    font-weight: bold;
+  }
 }
 
 .list-item {
-	background-color: $primary-color-lighter;
-	border-bottom: 1px solid $primary-color-light;
+  background-color: $primary-color-lighter;
+  border-bottom: 1px solid $primary-color-light;
 }
 
 .details-panel {
-	background-color: $secondary-color-light;
+  background-color: $secondary-color-light;
 }
